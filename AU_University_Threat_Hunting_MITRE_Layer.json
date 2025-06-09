@@ -1,0 +1,111 @@
+{
+    "version": "4.3",
+    "name": "Threat Hunting \u2013 Australian University Incidents (ANU, WSU, QUT)",
+    "domain": "enterprise-attack",
+    "description": "Mapped techniques from real-world incidents at ANU, WSU, and QUT using MITRE ATT&CK.",
+    "techniques": [
+        {
+            "techniqueID": "T1566.001",
+            "score": 1,
+            "comment": "Phishing via spearphishing attachment",
+            "color": "#1f77b4"
+        },
+        {
+            "techniqueID": "T1059.001",
+            "score": 1,
+            "comment": "PowerShell execution",
+            "color": "#1f77b4"
+        },
+        {
+            "techniqueID": "T1021.001",
+            "score": 1,
+            "comment": "RDP lateral movement",
+            "color": "#1f77b4"
+        },
+        {
+            "techniqueID": "T1041",
+            "score": 1,
+            "comment": "Exfiltration over HTTPS",
+            "color": "#1f77b4"
+        },
+        {
+            "techniqueID": "T1486",
+            "score": 1,
+            "comment": "Data encryption for impact",
+            "color": "#1f77b4"
+        },
+        {
+            "techniqueID": "T1078",
+            "score": 1,
+            "comment": "Use of valid accounts",
+            "color": "#2ca02c"
+        },
+        {
+            "techniqueID": "T1619",
+            "score": 1,
+            "comment": "Cloud discovery",
+            "color": "#2ca02c"
+        },
+        {
+            "techniqueID": "T1537",
+            "score": 1,
+            "comment": "Cloud storage object discovery",
+            "color": "#2ca02c"
+        },
+        {
+            "techniqueID": "T1567",
+            "score": 1,
+            "comment": "Exfiltration to web service",
+            "color": "#2ca02c"
+        },
+        {
+            "techniqueID": "T1190",
+            "score": 1,
+            "comment": "Exploitation of PrintNightmare",
+            "color": "#9467bd"
+        },
+        {
+            "techniqueID": "T1021.002",
+            "score": 1,
+            "comment": "SMB lateral movement",
+            "color": "#9467bd"
+        },
+        {
+            "techniqueID": "T1486",
+            "score": 1,
+            "comment": "Data encryption for impact",
+            "color": "#9467bd"
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#ffffff",
+            "#ff6666"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    },
+    "legendItems": [
+        {
+            "label": "ANU \u2013 Blue",
+            "color": "#1f77b4"
+        },
+        {
+            "label": "WSU \u2013 Green",
+            "color": "#2ca02c"
+        },
+        {
+            "label": "QUT \u2013 Purple",
+            "color": "#9467bd"
+        }
+    ],
+    "metadata": [],
+    "filters": {
+        "stages": [
+            "act"
+        ]
+    },
+    "layout": {
+        "layout": "side"
+    }
+}
